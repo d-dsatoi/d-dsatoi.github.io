@@ -1,4 +1,5 @@
 /*!
+ * Some styles of this file has been modified from
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -22,18 +23,18 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #15add9;
 }
 
+body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, ".HiraKakuInterface-W2", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-weight: 300;
 }
 
 hr.star-light,
@@ -63,15 +64,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #15add9;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #15add9;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #15add9;
     background-color: #fff;
 }
 
@@ -82,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #15add9;
 }
 
 header .container {
@@ -97,10 +98,9 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, ".HiraKakuInterface-W2", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 header .intro-text .skills {
@@ -125,32 +125,23 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
-
-    .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
-    }
-
-    .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
 }
 
 .navbar {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, ".HiraKakuInterface-W2", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-weight: 300;
 }
 
 .navbar a:focus {
@@ -163,6 +154,16 @@ header .intro-text .skills {
 
 .navbar .navbar-nav li a:focus {
     outline: 0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #15add9;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #15add9;
 }
 
 .navbar-default,
@@ -179,9 +180,20 @@ section h2 {
     font-size: 3em;
 }
 
+section h3 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 5px;
+}
+
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #15add9;
+}
+
+section.success a {
+    color: #fff;
 }
 
 @media(max-width:767px) {
@@ -211,7 +223,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: rgba(21,173,217,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -265,7 +277,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #15add9;
     background: #fff;
 }
 
@@ -318,7 +330,14 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #15add9;
+}
+
+#publications li {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin-top: 8px;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -405,8 +424,26 @@ footer .footer-below {
     margin-bottom: 30px;
 }
 
+.portfolio-modal .modal-content p {
+    margin-top: 10px;
+    text-align: left;
+}
+
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+
+.portfolio-modal .modal-content .item-details li {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-weight: 400;
+}
+
+.portfolio-modal .modal-content .item-details li strong {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+    font-weight: 600;
 }
 
 .portfolio-modal .close-modal {
