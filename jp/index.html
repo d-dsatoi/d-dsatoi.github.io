@@ -1,33 +1,29 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Researcher, Developer on Entertainment Computing, Ph.D. Student at University of Tsukuba">
+    <meta name="description" content="PhD Student at University of Tsukuba">
     <meta name="author" content="Daiki Satoi">
-    <meta name="copyright" content="Copyright &copy; Daiki Satoi 2015">
+    <meta name="copyright" content="Copyright &copy; Daiki Satoi 2016">
 
-    <title>Daiki Satoi</title>
+    <title>里井 大輝 / Daiki Satoi</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="./../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="../css/freelancer.css" rel="stylesheet">
+    <link href="./../css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="./../slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./../slick/slick-theme.css"/>
 
     <!-- Google Analytics -->
     <script>
@@ -43,69 +39,62 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top">Daiki Satoi</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Projects</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#publications">Publications</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <a href="./../">ENGLISH</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
     <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 language-menu">
+                    [<a href="./../">English</a> / Japanese]
+                </div>
+                <div class="col-lg-12 media">
+                    <div class="portrait media-left media-middle">
+                        <img src="./../img/self-portrait.jpg" />
+                    </div>
+                    <div class="media-body media-middle">
+                        <div class="name">里井 大輝 (Daiki Satoi)</div>
+                        <div class="affiliation">
+                            <a href="http://www.tsukuba.ac.jp/">筑波大学</a>大学院 <a href="http://www.sie.tsukuba.ac.jp/">システム情報工学研究科</a> 博士後期課程<br />
+                            <a href="http://www.entcomp.esys.tsukuba.ac.jp/">エンタテインメントコンピューティング研究室</a><br />
+                        </div>
+                        <div class="contact">
+                            <strong>Contact:</strong> dsatoi [at] acm.org
+                        </div>
+                        <div class="concepts">
+                            <strong>Concepts:</strong> &#x25CF;Computer Graphics for Entertainment &rarr; Procedural Animation;
+                        </div>
+                    </div>
+                    <hr>
+                </div>
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="../img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Daiki Satoi</span>
-                        <hr>
-                        <span class="skills">
-                            Researcher, Developer on Entertainment Computing<br />
-                            Ph.D. Student at University of Tsukuba
-                        </span>
+                    <h3>略歴</h3>
+                        <p>
+                            <a href="http://www.tsukuba.ac.jp/">筑波大学</a>大学院<a href="http://www.sie.tsukuba.ac.jp/">システム情報工学研究科</a>の博士後期課程に在籍する学生です。
+                            <a href="http://www.entcomp.esys.tsukuba.ac.jp/">エンタテインメントコンピューティング研究室</a>に所属しています。
+                            <a href="http://www.entcomp.iit.tsukuba.ac.jp/">星野准一准教授</a>の指導の下、エンタテインメントのためのコンピュータグラフィックス技術の開発に従事しています。
+                            エンタテインメントに関連した技術（特に、コンピュータアニメーション、人工生命、バーチャルリアリティなど）に興味があります。
+                            直近では生物学や神経科学の知見に基づいた自律キャラクタのモデリングを行っています。
+                            2014年3月に筑波大学より修士（工学）の学位を取得しました。
+                        </p>
+                    <h3>お知らせ</h3>
+                    <ul>
+                        <li><strong>2016年5月7日:</strong> 主著論文が<a href="http://s2016.siggraph.org">SIGGRAPH 2016</a> Technical Papersに採択されました。（プロジェクトページ：<a href="http://entcomp.esys.tsukuba.ac.jp/en/project/unified-motion-planner/">Unified Motion Planner for Fishes with Various Swimming Styles</a>）</li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="slideshow">
+                        <div><img src="./../img/slideshow/UMP_Teaser_Textured.jpg" /></div>
+                        <div><img src="./../img/slideshow/UMP_12SwimmingModes.jpg" /></div>
+                        <div><img src="./../img/slideshow/UMP_PredatorStrike.jpg" /></div>
+                        <div><img src="./../img/slideshow/UMP_InteractiveApplication.jpg" /></div>
+                        <div><img src="./../img/slideshow/UMP_Teaser.jpg" /></div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <!-- Projects Section -->
+    <section class="projects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -114,76 +103,115 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/AnimacyMotionEngine.jpg" class="img-responsive" alt="">
-                    </a>
+                <div class="col-lg-12">
+                    <h3>Selected</h3>
                 </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/iBunchin.jpg" class="img-responsive" alt="">
-                    </a>
+                <div class="col-lg-12 media">
+                    <div class="media-left media-middle">
+                        <img class="project-image" src="./../img/project/UnifiedMotionPlanner.jpg" />
+                    </div>
+                    <div class="project-description media-body media-middle">
+                        <p class="project-title">
+                            Unified Motion Planner for Fishes with Various Swimming Styles
+                        </p>
+                        <p class="project-author">
+                            里井 大輝, 萩原 幹大, 上元 晃, 中臺 久和巨, 星野 准一
+                        </p>
+                        <p class="project-publication">
+                            ACM Transactions on Graphics (SIGGRAPH) 2016
+                        </p>
+                        <p class="project-link">
+                            [<a href="http://entcomp.esys.tsukuba.ac.jp/en/project/unified-motion-planner/">Project page</a>][<a href="http://entcomp.esys.tsukuba.ac.jp/en/project/unified-motion-planner/file/UnifiedMotionPlanner_Paper.pdf">Paper</a>][<a href="https://www.youtube.com/watch?v=IeR5cV7nhKs">YouTube</a>]
+                        </p>
+                    </div>
                 </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/MezamashiCurtain.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/Watbottle.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                <div class="col-lg-12">
                     <hr>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-lg-12">
-                    <h3>里井 大輝</h3>
-                    <p>
-                        <a href="http://www.tsukuba.ac.jp/">筑波大学</a> <a href="http://www.sie.tsukuba.ac.jp/">大学院 システム情報工学研究科</a><br />
-                        <a href="http://www.iit.tsukuba.ac.jp/">知能機能システム専攻</a> 博士後期課程<br />
-                        <a href="http://www.entcomp.esys.tsukuba.ac.jp/">エンタテインメントコンピューティング研究室</a>
-                    </p>
-                    <p>
-                        <a href="http://www.acm.org/">ACM</a> (<a href="http://www.siggraph.org">SIGGRAPH</a>), <a href="http://www.ieee.org/">IEEE</a>, <a href="http://www.ipsj.or.jp/">情報処理学会</a> (<a href="http://entcomp.org">EC研究会</a>) 学生会員
-                    </p>
-
-                    <h3>Research Interests</h3>
-                    <p>
-                        <strong>Computer Graphics for Entertainment:</strong><br />
-                        Procedural Animation, Artificial Life, Virtual Reality, Entertainment Technologies, etc.
-                    </p>
+                    <h3>Others</h3>
+                </div>
+                <div class="col-lg-12 media">
+                    <div class="media-left media-middle">
+                        <img class="project-image" src="./../img/project/TropicalFishes.jpg" />
+                    </div>
+                    <div class="project-description media-body media-middle">
+                        <p class="project-title">
+                            動きの突発性と多様性に基づく熱帯魚の生命的アニメーションシステム
+                        </p>
+                        <p class="project-author">
+                            里井 大輝, 中臺 久和巨, 星野 准一
+                        </p>
+                        <p class="project-publication">
+                            情報処理学会論文誌 2015
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <hr>
+                </div>
+                <div class="col-lg-12 media">
+                    <div class="media-left media-middle">
+                        <img class="project-image" src="./../img/project/iBunchin.jpg" />
+                    </div>
+                    <div class="project-description media-body media-middle">
+                        <p class="project-title">
+                            i文鎮
+                        </p>
+                        <p class="project-author">
+                            石川 優, 牟田 将史, 里井 大輝
+                        </p>
+                        <p class="project-publication">
+                            秋月賞, GUGEN 2013
+                        </p>
+                        <p class="project-link">
+                            [<a href="https://vimeo.com/79940167">Vimeo</a>]
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <hr>
+                </div>
+                <div class="col-lg-12 media">
+                    <div class="media-left media-middle">
+                        <img class="project-image" src="./../img/project/MezamashiCurtain.jpg" />
+                    </div>
+                    <div class="project-description media-body media-middle">
+                        <p class="project-title">
+                            めざましカーテン
+                        </p>
+                        <p class="project-author">
+                            里井 大輝, 大野 誠, 権守 健嗣, 西島 一志, 酒井 紗希
+                        </p>
+                        <p class="project-publication">
+                            エンジョイ賞, 電子工作コンテスト2012
+                        </p>
+                        <p class="project-link">
+                            [<a href="https://www.youtube.com/watch?v=2IllgJ_qH-U">YouTube</a>]
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <hr>
+                </div>
+                <div class="col-lg-12 media">
+                    <div class="media-left media-middle">
+                        <img class="project-image" src="./../img/project/WatBottle.jpg" />
+                    </div>
+                    <div class="project-description media-body media-middle">
+                        <p class="project-title">
+                            わっとボトル
+                        </p>
+                        <p class="project-author">
+                            里井 大輝, 大野 誠, 権守 健嗣, 倉成 智久, 栗原 拓郎, 中山 暁, 白木 みつか
+                        </p>
+                        <p class="project-publication">
+                            新人賞, white-screen.jp賞, 電子工作コンテスト2011
+                        </p>
+                        <p class="project-link">
+                            [<a href="https://www.youtube.com/watch?v=hJDxBLA0i1w">YouTube</a>]
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -202,12 +230,13 @@
                 <div class="col-lg-12">
                     <h3>Journals</h3>
                     <ol>
+                        <li>Daiki Satoi, Mikihiro Hagiwara, Akira Uemoto, Hisanao Nakadai, Junichi Hoshino: Unified Motion Planner for Fishes with Various Swimming Styles, ACM Transactions on Graphics (Proceedings of SIGGRAPH 2016), Vol.35, No.4, 2016 (to appear)</li>
                         <li>里井大輝, 中䑓久和巨, 星野准一: 動きの突発性と多様性に基づく熱帯魚の生命的アニメーションシステム, 情報処理学会論文誌, Vol.56, No.11, pp.2131-2140, 2015</li>
                         <li>梅村豪, 浦野幸, 里井大輝, 星野准一: ニッチな市場における情報獲得と社会的交流を支援するコミュニケーションシステム, 日本感性工学会論文誌, Vol.13, No.2, pp.325-332, 2014</li>
                         <li>里井大輝, 中䑓久和巨, 星野准一: アニマシー知覚に基づく仮想ホタルの生命的アニメーションシステム, 日本バーチャルリアリティ学会論文誌, Vol.18, No.3, pp.337-343, 2013</li>
                     </ol>
 
-                    <h3>International</h3>
+                    <h3>International Conferences</h3>
                     <ol>
                         <li>Junichi Hoshino, Takeru Umemura, Sachi Urano, Daiki Satoi: SONAR: Communication System for Supporting Information Gathering and Social Interaction in a Niche Market, 13th International Conference on Entertainment Computing (ICEC 2014), Springer LNCS 8770, pp.181-188, Sydney, Australia, October 1-3, 2014</li>
                         <li>Daiki Satoi, Hisanao Nakadai, Matteo Bernacchia, Junichi Hoshino: Life-Like Animation System of Virtual Firefly Based on Animacy Perception, 12th International Conference on Entertainment Computing (ICEC 2013), Springer LNCS 8215, pp.138-144, São Paulo, Brazil, October 16-18, 2013</li>
@@ -216,7 +245,7 @@
                         <li>Tetsuya Saito, Sachi Urano, Daiki Satoi, Junichi Hoshino: Development of an Shadowgraph System for Activating Public Spaces, short Paper, NICOGRAPH International 2012, Indonesia, July 2-3, 2012</li>
                     </ol>
 
-                    <h3>Domestic</h3>
+                    <h3>Domestic Conferences</h3>
                     <ol>
                         <li>萩原幹大, 里井大輝, 星野准一: 形状に適した魚類の遊泳モーション生成のための仮想骨格モデル, 第13回情報科学技術フォーラム(FIT2014), I-002, 筑波大学, September, 2014</li>
                         <li>里井大輝, 中䑓久和巨, 星野准一: 形状と泳法の対応関係に基づく多様な魚類の遊泳モーション生成法, 映像表現・芸術科学フォーラム2014, Article No.14, 早稲田国際会議場, March, 2014</li>
@@ -227,6 +256,12 @@
                         <li>里井大輝, 中䑓久和巨, 星野准一: 動きの突発性と多様性に基づく生命的アニメーションシステム, 情報処理学会グラフィクスとCAD研究会, Vol.2013-GCAD-150, No.1, 東京大学柏キャンパス, February, 2013</li>
                         <li>里井大輝, 星野准一: わっとボトル：運動と音声加工フィードバックによりストレスを解消するペットボトル型デバイス, 情報処理学会エンタテインメントコンピューティング研究会, Vol.2012-EC-24, No.1, 東京工業大学すずかけ台キャンパス, May, 2012</li>
                     </ol>
+
+                    <h3>Theses</h3>
+                    <ul>
+                        <li>里井大輝: アニマシー知覚に基づく生命的アニメーションシステム, 修士論文（筑波大学）, 2014</li>
+                        <li>里井大輝: 動きの突発性と多様性による生命的モーション生成法, 卒業論文（筑波大学）, 2013</li>
+                    </ul>
 
                     <h3>Grants</h3>
                     <ol>
@@ -243,24 +278,11 @@
                         <li>電子工作コンテスト2011 新人賞 & white-screen.jp賞, "わっとボトル", December, 2011</li>
                     </ol>
 
-                    <h3>Exhibition</h3>
-                    <ol>
-                        <li>ディスカバリーラボISHIKAWA2014, 石川県産業展示館1号館, November, 2014</li>
-                        <li>いしかわ夢未来博2013, 石川県産業展示館1号館, November, 2013</li>
-                        <li>Make: Tokyo Meeting 07, 東京工業大学大岡山キャンパス, December, 2011</li>
-                    </ol>
-
-                    <h3>Theses</h3>
-                    <ol>
-                        <li>修士論文: アニマシー知覚に基づく生命的アニメーションシステム, 2014年3月</li>
-                        <li>卒業論文: 動きの突発性と多様性による生命的モーション生成法, 2013年3月</li>
-                    </ol>
-
                     <h3>Education</h3>
                     <ul>
-                        <li>2014年3月, 筑波大学大学院システム情報工学研究科知能機能システム専攻 博士前期課程修了</li>
-                        <li>2013年3月, 筑波大学情報学群情報メディア創成学類卒業</li>
-                        <li>2011年3月, 大分工業高等専門学校制御情報工学科卒業</li>
+                        <li>2013/4 - 2014/3: 筑波大学大学院 システム情報工学研究科 知能機能システム専攻 博士前期課程</li>
+                        <li>2011/4 - 2013/3: 筑波大学 情報学群 情報メディア創成学類</li>
+                        <li>2006/4 - 2011/3: 大分工業高等専門学校 制御情報工学科</li>
                     </ul>
                 </div>
             </div>
@@ -272,19 +294,10 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-12" id="contact">
-                        <h2>Contact</h2>
-                        <hr>
-                        <p>
-                            エンタテインメントコンピューティング研究室<br />
-                            〒305-8573 茨城県つくば市天王台1-1-1 筑波大学システム情報系<br />
-                            Email: satoi.daiki [at] entcomp.esys.tsukuba.ac.jp<br />
-                            Phone: 029-853-6555
-                        </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/daiki.satoi" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
+                    <div class="footer-col col-md-12">
+                        <ul class="authors-affiliation-logo">
+                            <li id="UnivTsukuba"><a href="http://www.tsukuba.ac.jp/en/"><img src="./../img/UnivTsukuba.png" alt="University of Tsukuba" /></a></li>
+                            <li id="ECL"><a href="http://entcomp.esys.tsukuba.ac.jp/en/"><img src="./../img/ECL.png" alt="Entertainment Computing Laboratory" /></a></li>
                         </ul>
                     </div>
                 </div>
@@ -294,227 +307,31 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Daiki Satoi 2015
+                        Copyright 2016 by Daiki Satoi<br />
+                        Last Modified: Saturday, 7-May-2016 16:14 GMT
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
+    <!-- Slick -->
+    <script type="text/javascript" src="./../js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="./../slick/slick.min.js"></script>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Animacy Motion Engine</h2>
-                            <hr>
-                            <img src="../img/portfolio/AnimacyMotionEngine.jpg" class="img-responsive img-centered" alt="">
-                            <p>
-                                生きているように感じられるキャラクタをつくることは、多くのアート・エンタテインメントコンテンツで重要ですが、生き物らしい振る舞い（動き）を制作することは優れたアニメータの感性や経験が必要とされ、容易ではありません。
-                            </p>
-                            <p>
-                                従来の動きの生成手法は物理シミュレーションなどによる連続的な動きが扱われることが多く、実際の生物の動きに見られるような、突発的に動いたり止まったりする動きの突発性や、個体ごとに複雑に振る舞うような動きの多様性があまり考慮に入れられていませんでした。
-                            </p>
-                            <p>
-                                本手法では、認知心理学におけるアニマシー知覚や生態生理学の知見に基づき、(1)基本動作の選択過程と(2)パラメータの選択過程からなる2段階の確率的制御を用いて、動きの突発性や多様性を再現します。熱帯魚やホタルについて本手法に基づいた動きのモデル化を行い、自律的に仮想水槽内で生き物らしく動くバーチャルアクアリウムアプリケーションを構築しました。
-                            </p>
-                            <ul class="item-details">
-                                <li>Journal:
-                                    <strong>
-                                        日本バーチャルリアリティ学会論文誌 (里井他 2013),
-                                        情報処理学会論文誌 (里井他 2015)
-                                    </strong>
-                                </li>
-                                <li>International:
-                                    <strong>
-                                        ICEC2013 (Satoi et al. 2013), IASDR2013 (Nakadai et al. 2013)
-                                    </strong>
-                                </li>
-                                <li>Exhibition:
-                                    <strong>
-                                        ディスカバリーラボISHIKAWA2014 (2014), いしかわ夢未来博2013 (2013)
-                                    </strong>
-                                </li>
-                                <li>Domestic:
-                                    <strong>
-                                        情報処理学会グラフィクスとCAD研究会 (里井他 2013)
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>i文鎮</h2>
-                            <hr>
-                            <iframe src="//player.vimeo.com/video/79940167" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="img-centered"></iframe>
-                            <p>
-                                i文鎮は、手で文字を書くことを楽しくする文鎮です。
-                            </p>
-                            <p>
-                                人が文字を紙に書くときに行う「トメ」「ハネ」「ハライ」の終筆動作を、筆­記音からリアルタイムに識別し、それぞれの終筆動作に対応した効果音を再生します。筆記とほぼ同時に効果音を鳴らすことで、手書きによる筆記を楽しくしま­す。
-                            </p>
-                            <p>
-                                手書きによる履歴書の記入や、漢字の書き取り練習のように、大量の文字を手書きす­るときの苦痛を軽減する効果が期待できます。
-                            </p>
-                            <ul class="item-details">
-                                <li>Award:
-                                    <strong>
-                                        Gugen2013 秋月賞 (2013)
-                                    </strong>
-                                </li>
-                                <li>Domestic:
-                                    <strong>
-                                        情報処理学会エンタテインメントコンピューティング研究会 (牟田他 2014)
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>めざましカーテン</h2>
-                            <hr>
-                            <iframe width="900" height="506" src="https://www.youtube.com/embed/2IllgJ_qH-U" frameborder="0" allowfullscreen class="img-centered"></iframe>
-                            <p>
-                                めざましカーテンはカーテン型の目覚ましです。
-                            </p>
-                            <p>
-                                人は太陽の光を浴びることで脳が覚醒す­ることが知られています。めざましカーテンは、布団から出てカーテンを開けることでア­ラームが止まる仕組みになっており、体と脳の両方を覚醒させてすっきり起きることがで­きます。
-                            </p>
-                            <p>
-                                カーテンというインテリアとしての外観や機能を活かすために、インタフェース­や部品の配置に気を配りました。
-                            </p>
-                            <ul class="item-details">
-                                <li>Award:
-                                    <strong>
-                                        電子工作コンテスト2012 エンジョイ賞 (2012)
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>わっとボトル</h2>
-                            <hr>
-                            <iframe width="900" height="506" src="https://www.youtube.com/embed/hJDxBLA0i1w" frameborder="0" allowfullscreen class="img-centered"></iframe>
-                            <p>
-                                叫んで、振って、スッキリしよう！
-                            </p>
-                            <p>
-                                わっとボトルは、声とともに気持ちを吐き出したり爆発させたりするためのペットボトル­型デバイス。
-                                このわっとボトルに声を吹きこんで思うがままにシェイクしよう。
-                                フタを開ければあなたの気持ちが飛び出します。
-                            </p>
-                            <p>
-                                普段は言えない気持ちを声に出してみませんか？
-                            </p>
-                            <ul class="item-details">
-                                <li>Award:
-                                    <strong>
-                                        電子工作コンテスト2011 新人賞 & white-screen.jp賞 (2011)
-                                    </strong>
-                                </li>
-                                <li>Exhibition:
-                                    <strong>
-                                        Make: Tokyo Meeting 07 (2011)
-                                    </strong>
-                                </li>
-                                <li>Domestic:
-                                    <strong>
-                                        情報処理学会エンタテインメントコンピューティング研究会 (2012)
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="../js/classie.js"></script>
-    <script src="../js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="../js/jqBootstrapValidation.js"></script>
-    <script src="../js/contact_me.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="../js/freelancer.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slideshow').slick({
+                autoplay: true,
+                arrows: false,
+                dots: true,
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear'
+            });
+        });
+    </script>
 
 </body>
 
