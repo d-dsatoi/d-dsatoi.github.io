@@ -51,6 +51,10 @@ header .portrait {
     padding-right: 20px;
 }
 
+header .portrait img {
+    width: 200px;
+}
+
 header .name {
     font-size: 1.8em;
     font-weight: 400;
@@ -76,8 +80,7 @@ header .slideshow {
 }
 
 header .slideshow, .slideshow img {
-    width: 100%;
-    max-width: 940px;
+    max-width: 100%;
 }
 
 section {
