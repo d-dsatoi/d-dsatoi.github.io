@@ -61,6 +61,11 @@ header .name {
     margin-bottom: 15px;
 }
 
+header .name #en {
+    font-size: 0.6em;
+    color: #999;
+}
+
 header .affiliation {
     margin-bottom: 15px;
 }
